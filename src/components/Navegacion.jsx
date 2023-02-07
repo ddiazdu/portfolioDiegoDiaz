@@ -8,10 +8,10 @@ const Navegacion = () => {
                     Diego <span id='apellido'>Diaz</span>
                 </h1>
                 <ul className='flex gap-4 justify-end m-5 text-lg'>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="#conocemeMas">Sobre mi</a></li>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a id="hover-underline-animation" href="">Inicio</a></li>
+                    <li><a id="hover-underline-animation" href="#conocemeMas">Sobre mi</a></li>
+                    <li><a id="hover-underline-animation" href="#portafolio">Portafolio</a></li>
+                    <li><a id="hover-underline-animation" href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>

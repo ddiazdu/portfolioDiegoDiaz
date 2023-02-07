@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Aboutme from "./components/Aboutme"
 import Portafolio from "./components/Portafolio"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Aboutme />
       <Portafolio />
       <Contact />
+      <Footer/>
 
     </div>
   )

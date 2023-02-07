@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portafolio = () => {
     return (
-        <div id='portafolio' className='p-20'>
+        <div id='portafolio' className='p-10'>
             <h2 id='contenido__titulo' className='text-3xl text-center mb-10 font-extrabold'> Mira algunos de mis proyectos </h2>
 
             <div className='flex gap-5 flex-col items-center md:flex-row'>

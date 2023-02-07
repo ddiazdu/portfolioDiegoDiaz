@@ -3,6 +3,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import TypeWriterEffect from 'react-typewriter-effect';
+
+/* import TypeWriterEffect from 'react-typewriter-effect';
+
+     */
 
 const Header = () => {
     return (
@@ -17,7 +22,24 @@ const Header = () => {
                     <p className='text-5xl font-bold uppercase text-white mb-2'>
                         Hola!, soy Diego
                     </p>
-                    <span className=" text-center text-normal cursor-pointer font-light text-white">Analista de sistemas</span>
+                    <span className="flex justify-center p-3 text-normal cursor-pointer font-light text-white">
+
+                        <TypeWriterEffect
+                            startDelay={1000}
+                            cursorColor="#3F3D56"
+                            multiText={[
+                                'Programador',
+                                'Analista de sistemas',
+                                'Aprendizaje continuo',
+                                'Trabajo en equipo',
+
+                            ]}
+                            multiTextLoop={true}
+                            multiTextDelay={1000}
+                            typeSpeed={100}
+                        />
+
+                    </span>
 
                     <div id="socialButtons">
                         <ul className="flex justify-center gap-2 mt-2 text-gray-400">
