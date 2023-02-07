@@ -1,6 +1,6 @@
 import React from 'react'
 import DownloadIcon from '@mui/icons-material/Download';
-import PDF from "../docs/CURRICULUM DIEGO DÍAZ DURÁN.pdf"
+import pdf from "../docs/CURRICULUM DIEGO DÍAZ DURÁN.pdf"
 
 const Aboutme = () => {
     return (
@@ -25,7 +25,7 @@ const Aboutme = () => {
                         </p>
                         <button className='flex items-center justify-center sm:w-full lg:w-1/2 w-full h-5  mb-5 p-7 font-medium text-white bg-blue-400 hover:bg-blue-500 rounded-lg transition ease-in-out delay-75 duration-300'>
 
-                            <a href={PDF} target="_blank" rel="noopener noreferrer" download="CURRICULUM DIEGO DÍAZ DURÁN.pdf"> <DownloadIcon /> Descarga mi CV</a>
+                            <a href={pdf} target="_blank" rel="noopener noreferrer" download="CURRICULUM DIEGO DÍAZ DURÁN.pdf"> <DownloadIcon /> Descarga mi CV</a>
 
                         </button>
                     </article>
