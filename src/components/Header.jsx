@@ -4,11 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TypeWriterEffect from 'react-typewriter-effect';
-
-/* import TypeWriterEffect from 'react-typewriter-effect';
-
-     */
+/* import TypeWriterEffect from 'react-typewriter-effect' */
 
 const Header = () => {
     return (
@@ -25,7 +21,7 @@ const Header = () => {
                     </p>
                     <span className="flex justify-center p-3 text-normal cursor-pointer font-light text-white">
 
-                        <TypeWriterEffect
+                       {/*  <TypeWriterEffect
                             startDelay={1000}
                             cursorColor="#3F3D56"
                             multiText={[
@@ -38,7 +34,7 @@ const Header = () => {
                             multiTextLoop={true}
                             multiTextDelay={1000}
                             typeSpeed={100}
-                        />
+                        /> */}
 
                     </span>
 
