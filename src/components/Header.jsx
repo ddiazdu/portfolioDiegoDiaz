@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-/* import TypeWriterEffect from 'react-typewriter-effect' */
+import { Typewriter } from 'react-simple-typewriter'
 
 const Header = () => {
     return (
@@ -19,22 +19,20 @@ const Header = () => {
                     <p className='text-5xl font-bold uppercase text-white mb-2'>
                         Hola!, soy Diego
                     </p>
-                    <span className="flex justify-center p-3 text-normal cursor-pointer font-light text-white">
+                    <span className="flex justify-center p-3 text-lg cursor-pointer font-normal text-white">
 
-                       {/*  <TypeWriterEffect
-                            startDelay={1000}
-                            cursorColor="#3F3D56"
-                            multiText={[
-                                'Programador',
-                                'Analista de sistemas',
-                                'Aprendizaje continuo',
-                                'Trabajo en equipo',
 
-                            ]}
-                            multiTextLoop={true}
-                            multiTextDelay={1000}
-                            typeSpeed={100}
-                        /> */}
+                        <Typewriter
+
+                            words={['Programador', 'Front-end', 'Aprendizaje continuo', 'Trabajo en equipo']}
+                            loop={5}
+                            cursor
+                            cursorStyle='|'
+                            typeSpeed={70}
+                            deleteSpeed={100}
+                            delaySpeed={1000}
+
+                        />
 
                     </span>
 

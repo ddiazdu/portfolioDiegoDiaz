@@ -23,11 +23,12 @@ const Aboutme = () => {
 
                             Siempre estoy buscando nuevos desafíos y oportunidades para mejorar mis habilidades y ampliar mi conocimiento en el campo de la tecnología.
                         </p>
-                        <button className='flex items-center justify-center sm:w-full lg:w-1/2 w-full h-5  mb-5 p-7 font-medium text-white bg-blue-400 hover:bg-blue-500 rounded-lg transition ease-in-out delay-75 duration-300'>
 
-                            <a href={pdf} target="_blank" rel="noopener noreferrer" download="CURRICULUM DIEGO DÍAZ DURÁN.pdf"> <DownloadIcon /> Descarga mi CV</a>
+                        <a className='flex items-center justify-center sm:w-full lg:w-1/2 w-full h-5  
+                        mb-5 p-7 font-medium text-white bg-blue-400 hover:bg-blue-500 rounded-lg 
+                        transition ease-in-out delay-75 duration-300' href={pdf} target="_blank" rel="noopener noreferrer"
+                            download="CURRICULUM DIEGO DÍAZ DURÁN.pdf"> <DownloadIcon /> Descarga mi CV</a>
 
-                        </button>
                     </article>
                     <div>
                         <h3 className='text-center text-2xl font-bold'>
