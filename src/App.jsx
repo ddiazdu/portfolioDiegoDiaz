@@ -1,3 +1,4 @@
+import React from "react"
 import Header from "./components/Header"
 import Aboutme from "./components/Aboutme"
 import Portafolio from "./components/Portafolio"
