@@ -1,4 +1,5 @@
-import React from "react"
+import S from "react-switch";
+const Switch = S.default ? S.default : S
 import Header from "./components/Header"
 import Aboutme from "./components/Aboutme"
 import Portafolio from "./components/Portafolio"
@@ -13,7 +14,7 @@ function App() {
       <Aboutme />
       <Portafolio />
       <Contact />
-      <Footer/>
+      <Footer />
 
     </div>
   )
