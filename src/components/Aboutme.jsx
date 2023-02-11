@@ -13,7 +13,7 @@ const Aboutme = () => {
                 </div>
                 <div id='contenido__article' className='flex mt-10 mx-5 justify-center gap-x-20'>
                     <article className='sm:w-full lg:w-3/4 leading-8 '>
-                        <h2 id='contenido__titulo' className='text-3xl lg:text-left mb-5 font-extrabold'> Soy <span id='apellido'>Diego Diaz</span>, desarrollador <span className='whitespace-pre'>front-end</span></h2>
+                        <h2 id='contenido__titulo' className='text-3xl lg:text-left mb-5 font-extrabold'> Soy desarrollador <span id='apellido' className='whitespace-pre'>front-end</span></h2>
                         <p className='text-justify mb-3'>
                             Hola, soy un joven apasionado por la tecnología y el desarrollo de sistemas.
 

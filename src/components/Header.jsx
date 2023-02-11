@@ -25,7 +25,7 @@ const Header = () => {
                         <Typewriter
 
                             words={['Programador', 'Front-end', 'Aprendizaje continuo', 'Trabajo en equipo']}
-                            loop={5}
+                            loop={4}
                             cursor
                             cursorStyle='|'
                             typeSpeed={70}
@@ -38,10 +38,10 @@ const Header = () => {
 
                     <div id="socialButtons">
                         <ul className="flex justify-center gap-2 mt-2 text-gray-400">
-                            <li className="bg-white p-3 rounded-full"><a href=""><LinkedInIcon id='icon_social' fontSize="large" /></a></li>
-                            <li className="bg-white p-3 rounded-full"><a href=""><GitHubIcon id='icon_social' fontSize="large" /></a></li>
-                            <li className="bg-white p-3 rounded-full"><a href=""><FacebookIcon id='icon_social' fontSize="large" /></a></li>
-                            <li className="bg-white p-3 rounded-full"><a href=""><InstagramIcon id='icon_social' fontSize="large" /></a></li>
+                            <li className="bg-white p-3 rounded-full"><a href="https://www.linkedin.com/in/diegodiazdu/" target="_blank"><LinkedInIcon id='icon_social' fontSize="large" /></a></li>
+                            <li className="bg-white p-3 rounded-full"><a href="https://github.com/ddiazdu" target="_blank"><GitHubIcon id='icon_social' fontSize="large" /></a></li>
+                            <li className="bg-white p-3 rounded-full"><a href="https://www.facebook.com/diegodiazdu" target="_blank"><FacebookIcon id='icon_social' fontSize="large" /></a></li>
+                            <li className="bg-white p-3 rounded-full"><a href="https://www.instagram.com/diegodiazdu/" target="_blank"><InstagramIcon id='icon_social' fontSize="large" /></a></li>
                         </ul>
                     </div>
                 </div>
